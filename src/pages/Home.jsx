@@ -9,7 +9,9 @@ function Home() {
 
       <Hero />
 
-    </>
+      <Services />
+
+    </> 
   );
 }
 
