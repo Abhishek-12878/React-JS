@@ -2,25 +2,29 @@ function Navbar() {
   return (
     <nav className="navbar">
 
+      {/* Logo */}
       <div className="logo">
-        MyCompany
+        MECH<span>ONSITE</span>
       </div>
 
+      {/* Navigation */}
       <div className="nav-links">
-
-        <a href="#home">Home</a>
-
-        <a href="#services">Services</a>
-
-        <a href="#about">About</a>
-
-        <a href="#contact">Contact</a>
-
+        <a href="#why-partner">Why Partner</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#faq">FAQ</a>
       </div>
 
-      <button className="nav-button">
-        Get Started
-      </button>
+      {/* Actions */}
+      <div className="nav-actions">
+        <a href="#login" className="login-link">
+          Login
+        </a>
+
+        <button className="nav-button">
+          Become a Partner
+        </button>
+      </div>
 
     </nav>
   );
